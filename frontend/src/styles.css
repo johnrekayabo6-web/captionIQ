@@ -251,6 +251,15 @@ button:disabled {
 .copy-caption-button:hover {
   background: #eef4fc;
 }
+.copy-feedback {
+  color: #187647;
+  font-size: 0.9rem;
+}
+
+.copy-error {
+  color: #b53e4f;
+  font-size: 0.9rem;
+}
 
 .copy-caption-button svg {
   width: 16px;
