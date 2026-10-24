@@ -1,5 +1,6 @@
 fastapi  # The web framework: routes, validation, the /docs test page
 uvicorn[standard]  # The server that actually runs your FastAPI app
+gunicorn  # Production process manager for serving the app
 python-multipart  # Lets FastAPI read file uploads. Without it, the photo route fails
 python-dotenv  # Reads your API key from the .env file
 google-genai  # Google's Python SDK for calling Gemini
