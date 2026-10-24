@@ -45,7 +45,7 @@ export default function CaptionForm({
         id="context"
         value={context}
         onChange={(event) => onContextChange(event.target.value)}
-        placeholder="e.g First day at my new job, or Sunday service with my church family"
+        placeholder="e.g First day at my new job, or Sunday service with my family"
         rows="6"
       />
       <div className="context-hint">
