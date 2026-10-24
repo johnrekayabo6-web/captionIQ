@@ -323,9 +323,6 @@ button:disabled {
 
   .caption-form-panel {
     min-height: 0;
-  }
-
-  .caption-form-panel {
     overflow-y: auto;
   }
 
